@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ProductWindow</class>
+ <widget class="QMainWindow" name="ProductWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1212</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:white;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_11">
+      <item>
+       <widget class="QLabel" name="sign_in_title">
+        <property name="minimumSize">
+         <size>
+          <width>1192</width>
+          <height>110</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>1192</width>
+          <height>110</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+	background-color:#6c63ff;
+	font: 22pt &quot;Eras Medium ITC&quot;;
+	color:white;
+
+	}
+</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Product Manager&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="margin">
+         <number>29</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="horizontalWidget_3" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>1095</width>
+          <height>413</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>1095</width>
+          <height>413</height>
+         </size>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_6">
+         <item>
+          <layout class="QGridLayout" name="gridLayout_6">
+           <item row="2" column="0">
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <item>
+              <widget class="QLineEdit" name="product_input">
+               <property name="minimumSize">
+                <size>
+                 <width>301</width>
+                 <height>51</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>301</width>
+                 <height>51</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QLineEdit {
+	padding-left:10px;
+	background-color:white;
+	font: 9pt &quot;Eras Medium ITC&quot;;
+	color:2f2e41;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color:#cccccc;
+
+	}
+
+QLineEdit:focus {
+	border-color:#2f2e41;
+    border-style:solid;
+}</string>
+               </property>
+               <property name="placeholderText">
+                <string>Enter Product</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="price_input">
+               <property name="minimumSize">
+                <size>
+                 <width>191</width>
+                 <height>51</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>191</width>
+                 <height>51</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QLineEdit {
+	padding-left:10px;
+	background-color:white;
+	font: 9pt &quot;Eras Medium ITC&quot;;
+	color:2f2e41;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color:#cccccc;
+
+	}
+
+QLineEdit:focus {
+	border-color:#2f2e41;
+    border-style:solid;
+}</string>
+               </property>
+               <property name="placeholderText">
+                <string>Enter Price</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item row="3" column="0">
+            <layout class="QGridLayout" name="gridLayout_4">
+             <item row="2" column="0">
+              <widget class="Line" name="line">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="output_message">
+               <property name="minimumSize">
+                <size>
+                 <width>502</width>
+                 <height>51</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>502</width>
+                 <height>51</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QLabel {
+	font: 10pt &quot;Eras Medium ITC&quot;;
+	}</string>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="Line" name="line_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item row="0" column="0">
+            <layout class="QVBoxLayout" name="verticalLayout_9">
+             <item>
+              <widget class="QLineEdit" name="description_input">
+               <property name="minimumSize">
+                <size>
+                 <width>501</width>
+                 <height>51</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>501</width>
+                 <height>51</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QLineEdit {
+	padding-left:10px;
+	background-color:white;
+	font: 9pt &quot;Eras Medium ITC&quot;;
+	color:2f2e41;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color:#cccccc;
+
+	}
+
+QLineEdit:focus {
+	border-color:#2f2e41;
+    border-style:solid;
+}</string>
+               </property>
+               <property name="placeholderText">
+                <string>Enter Description</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="minimumSize">
+            <size>
+             <width>581</width>
+             <height>411</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>581</width>
+             <height>411</height>
+            </size>
+           </property>
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="qrc_main.qrc">:/product_manager/undraw_New_entries_re_cffr.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <widget class="QPushButton" name="add">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>161</width>
+              <height>41</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>161</width>
+              <height>41</height>
+             </size>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+	background-color:#f9f9f9;
+	font: 10pt &quot;Eras Medium ITC&quot;;
+	color:#6c63ff;
+	border-style: outset;
+	border-width: 3px;
+	border-radius: 20px;
+	font-weight:bold;
+	border-color:#6c63ff;
+
+	}
+
+QPushButton:hover {
+	background-color:#1ed760;
+	color:#f9f9f9;
+	border-color:#1ed760;
+    border-style:solide;
+	font-weight:bold;
+}</string>
+            </property>
+            <property name="text">
+             <string>Add</string>
+            </property>
+            <property name="checkable">
+             <bool>false</bool>
+            </property>
+            <property name="autoDefault">
+             <bool>false</bool>
+            </property>
+            <property name="default">
+             <bool>false</bool>
+            </property>
+            <property name="flat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="find">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>161</width>
+              <height>41</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>161</width>
+              <height>41</height>
+             </size>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+	background-color:#f9f9f9;
+	font: 10pt &quot;Eras Medium ITC&quot;;
+	color:#6c63ff;
+	border-style: outset;
+	border-width: 3px;
+	border-radius: 20px;
+	font-weight:bold;
+	border-color:#6c63ff;
+
+	}
+
+QPushButton:hover {
+	background-color:#6c63ff;
+	color:#f9f9f9;
+	border-color:#6c63ff;
+    border-style:solide;
+	font-weight:bold;
+}</string>
+            </property>
+            <property name="text">
+             <string>Find</string>
+            </property>
+            <property name="checkable">
+             <bool>false</bool>
+            </property>
+            <property name="autoDefault">
+             <bool>false</bool>
+            </property>
+            <property name="default">
+             <bool>false</bool>
+            </property>
+            <property name="flat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="delete_">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>161</width>
+              <height>41</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>161</width>
+              <height>41</height>
+             </size>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+	background-color:#f9f9f9;
+	font: 10pt &quot;Eras Medium ITC&quot;;
+	color:#6c63ff;
+	border-radius: 20px;
+	border-style: outset;
+	border-width: 3px;
+	font-weight:bold;
+	border-color:#6c63ff;
+
+	}
+
+QPushButton:hover {
+	background-color:#ff0000;
+	color:#f9f9f9;
+	border-color:#ff0000;
+    border-style:solide;
+	font-weight:bold;
+}</string>
+            </property>
+            <property name="text">
+             <string>Delete</string>
+            </property>
+            <property name="checkable">
+             <bool>false</bool>
+            </property>
+            <property name="autoDefault">
+             <bool>false</bool>
+            </property>
+            <property name="default">
+             <bool>false</bool>
+            </property>
+            <property name="flat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Fixed</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>500</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="back_home">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>161</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>161</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color:#3f3d56;
+	font: 10pt &quot;Eras Medium ITC&quot;;
+	color:white;
+	border-style:solid;
+	border-width: 3px;
+	border-radius: 20px;
+	border-color: beige;
+
+	}
+
+QPushButton:hover {
+	background-color:#f2f2f2;
+	color:#3f3d56;
+	border-color:#3f3d56;
+    border-style: outset;
+	font-weight:bold;
+}</string>
+          </property>
+          <property name="text">
+           <string>Log Out</string>
+          </property>
+          <property name="checkable">
+           <bool>false</bool>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="qrc_main.qrc"/>
+ </resources>
+ <connections/>
+</ui>

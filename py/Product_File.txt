@@ -1,0 +1,17 @@
+phone,Samsung Galaxy S9+,$ 300
+phone,Samsung Galaxy Note 10,$ 300
+phone,Samsung Galaxy S22 Ultra,$ 300
+phone,Samsung Galaxy S8,$ 300
+phone,Apple Iphone 13,$ 500
+phone,Apple Iphone 11,$ 700
+phone,Apple Iphone 7,$ 200
+phone,Apple Iphone 11 Pro Max,$ 600
+phone,Lenovo ST500,$ 240
+watch,LG,$ 300
+watch,Apple serie 7,$ 600
+watch,Apple serie 5,$ 350
+laptop,hp G340 Gen 6 EliteBook,$ 700
+laptop,hp G780 Gen 11 EliteBook,$ 780
+laptop,hp G370 Gen 8 ProbookBook,$ 450
+laptop,hp G500 Gen 4 EliteBook,$ 500
+laptop,Surface-duo Gen 9 ,$ 200

@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SigninWindow</class>
+ <widget class="QMainWindow" name="SigninWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1210</width>
+    <height>588</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:white;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <widget class="QWidget" name="verticalWidget" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>1192</width>
+        <height>570</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>1192</width>
+        <height>570</height>
+       </size>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="sign_in_title">
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+	background-color:#6c63ff;
+	font: 22pt &quot;Eras Medium ITC&quot;;
+	color:white;
+
+	}
+</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:22pt;&quot;&gt;Sign In&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="horizontalWidget" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="minimumSize">
+             <size>
+              <width>650</width>
+              <height>450</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>650</width>
+              <height>450</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-image: url(:/sign_in/undraw_Sign_in_re_o58h.png);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>:/signin/undraw_Sign_in_re_o58h.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="verticalWidget" native="true">
+            <property name="minimumSize">
+             <size>
+              <width>423</width>
+              <height>450</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>423</width>
+              <height>450</height>
+             </size>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <item>
+              <widget class="QWidget" name="gridWidget" native="true">
+               <property name="minimumSize">
+                <size>
+                 <width>421</width>
+                 <height>301</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>421</width>
+                 <height>301</height>
+                </size>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_4">
+                <item row="1" column="0">
+                 <widget class="QLineEdit" name="input_email">
+                  <property name="minimumSize">
+                   <size>
+                    <width>400</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>400</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLineEdit {
+		padding-left:10px;
+	background-color:white;
+	font: 9pt &quot;Eras Medium ITC&quot;;
+	color:2f2e41;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color:#cccccc;
+
+	}
+
+QLineEdit:focus {
+	border-color:#2f2e41;
+    border-style:solid;
+}</string>
+                  </property>
+                  <property name="inputMethodHints">
+                   <set>Qt::ImhNone</set>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="maxLength">
+                   <number>16</number>
+                  </property>
+                  <property name="cursorPosition">
+                   <number>0</number>
+                  </property>
+                  <property name="readOnly">
+                   <bool>false</bool>
+                  </property>
+                  <property name="placeholderText">
+                   <string> Enter Email</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="0">
+                 <widget class="QLineEdit" name="input_password_2">
+                  <property name="minimumSize">
+                   <size>
+                    <width>400</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>400</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLineEdit {
+		padding-left:10px;
+	background-color:white;
+	font: 9pt &quot;Eras Medium ITC&quot;;
+	color:2f2e41;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color:#cccccc;
+
+	}
+
+QLineEdit:focus {
+	border-color:#2f2e41;
+    border-style:solid;
+}</string>
+                  </property>
+                  <property name="inputMethodHints">
+                   <set>Qt::ImhNone</set>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="maxLength">
+                   <number>16</number>
+                  </property>
+                  <property name="cursorPosition">
+                   <number>0</number>
+                  </property>
+                  <property name="readOnly">
+                   <bool>false</bool>
+                  </property>
+                  <property name="placeholderText">
+                   <string> Confirme Password</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0">
+                 <widget class="QLineEdit" name="input_password">
+                  <property name="minimumSize">
+                   <size>
+                    <width>400</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>400</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLineEdit {
+		padding-left:10px;
+	background-color:white;
+	font: 9pt &quot;Eras Medium ITC&quot;;
+	color:2f2e41;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color:#cccccc;
+
+	}
+
+QLineEdit:focus {
+	border-color:#2f2e41;
+    border-style:solid;
+}</string>
+                  </property>
+                  <property name="inputMethodHints">
+                   <set>Qt::ImhNone</set>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="maxLength">
+                   <number>16</number>
+                  </property>
+                  <property name="cursorPosition">
+                   <number>0</number>
+                  </property>
+                  <property name="readOnly">
+                   <bool>false</bool>
+                  </property>
+                  <property name="placeholderText">
+                   <string> Enter Password</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="0">
+                 <widget class="QLineEdit" name="input_username">
+                  <property name="minimumSize">
+                   <size>
+                    <width>400</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>400</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLineEdit {
+	padding-left:10px;
+	background-color:white;
+	font: 9pt &quot;Eras Medium ITC&quot;;
+	color:2f2e41;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color:#cccccc;
+
+	}
+
+QLineEdit:focus {
+	border-color:#2f2e41;
+    border-style:solid;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="frame">
+                   <bool>true</bool>
+                  </property>
+                  <property name="cursorPosition">
+                   <number>0</number>
+                  </property>
+                  <property name="placeholderText">
+                   <string> Enter Username</string>
+                  </property>
+                  <property name="cursorMoveStyle">
+                   <enum>Qt::LogicalMoveStyle</enum>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="output_message">
+               <property name="minimumSize">
+                <size>
+                 <width>400</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>400</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QLabel {
+	font: 10pt &quot;Eras Medium ITC&quot;;
+	}</string>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;message&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="Line" name="line">
+               <property name="minimumSize">
+                <size>
+                 <width>421</width>
+                 <height>3</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>421</width>
+                 <height>3</height>
+                </size>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QWidget" name="button_group" native="true">
+               <property name="minimumSize">
+                <size>
+                 <width>421</width>
+                 <height>81</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>421</width>
+                 <height>81</height>
+                </size>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_2">
+                <property name="leftMargin">
+                 <number>1</number>
+                </property>
+                <item row="0" column="3">
+                 <widget class="QPushButton" name="back_home">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>166</width>
+                    <height>49</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>166</width>
+                    <height>49</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton {
+	background-color:#3f3d56;
+	font: 10pt &quot;Eras Medium ITC&quot;;
+	color:white;
+	border-style:solid;
+	border-width: 3px;
+	border-radius: 20px;
+	border-color: beige;
+
+	}
+
+QPushButton:hover {
+	background-color:#f2f2f2;
+	color:#3f3d56;
+	border-color:#3f3d56;
+    border-style: outset;
+	font-weight:bold;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Back</string>
+                  </property>
+                  <property name="autoDefault">
+                   <bool>false</bool>
+                  </property>
+                  <property name="default">
+                   <bool>false</bool>
+                  </property>
+                  <property name="flat">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="2">
+                 <widget class="QPushButton" name="sign_in">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>167</width>
+                    <height>49</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>167</width>
+                    <height>49</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton {
+	background-color:#564fcc;
+	font: 10pt &quot;Eras Medium ITC&quot;;
+	color:white;
+	border-style: outset;
+	border-width: 3px;
+	border-radius: 20px;
+	border-color: beige;
+
+	}
+
+QPushButton:hover {
+	background-color:#f2f2f2;
+	color:#6c63ff;
+	border-color:#6c63ff;
+    border-style:outset;
+	font-weight:bold;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Sign in</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../qrc/qrc_main.qrc"/>
+  <include location="qrc_main.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DiscountWindow</class>
+ <widget class="QMainWindow" name="DiscountWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>453</width>
+    <height>531</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:white;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <widget class="QWidget" name="verticalWidget" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>435</width>
+        <height>487</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>435</width>
+        <height>487</height>
+       </size>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QWidget" name="verticalWidget" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>433</width>
+           <height>428</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>433</width>
+           <height>428</height>
+          </size>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="minimumSize">
+             <size>
+              <width>431</width>
+              <height>311</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>431</width>
+              <height>311</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-image: url(:/sign_in_dialogue/undraw_Happy_announcement_re_tsm0.png);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap resource="qrc_main.qrc">:/discount/undraw_discount_d4bd.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+            <property name="wordWrap">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QGridLayout" name="gridLayout_2">
+            <item row="0" column="0">
+             <widget class="QLabel" name="output_message">
+              <property name="minimumSize">
+               <size>
+                <width>400</width>
+                <height>101</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>400</width>
+                <height>101</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLabel {
+	font: 10pt &quot;Eras Medium ITC&quot;;
+	}</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Get ready to save big! Use code RAYSTORE at checkout for 50% off your purchase .&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; color:#4e47b8;&quot;&gt;Limited time only&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="wordWrap">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="0">
+          <widget class="QPushButton" name="ok">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>167</width>
+             <height>49</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>167</width>
+             <height>49</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+	background-color:#564fcc;
+	font: 10pt &quot;Eras Medium ITC&quot;;
+	color:white;
+	border-style: outset;
+	border-width: 3px;
+	border-radius: 20px;
+	border-color: beige;
+
+	}
+
+QPushButton:hover {
+	background-color:#f2f2f2;
+	color:#6c63ff;
+	border-color:#6c63ff;
+    border-style:outset;
+	font-weight:bold;
+}</string>
+           </property>
+           <property name="text">
+            <string>Ok</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="qrc_main.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1192</width>
+    <height>669</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(255, 255, 255);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QWidget" name="verticalWidget" native="true">
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QLabel" name="image_main">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>631</width>
+           <height>471</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>631</width>
+           <height>471</height>
+          </size>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::PlainText</enum>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="qrc_main.qrc">:/main/undraw_web_shopping_re_owap.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="wordWrap">
+          <bool>false</bool>
+         </property>
+         <property name="openExternalLinks">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QWidget" name="button_slide" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>631</width>
+           <height>101</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>631</width>
+           <height>101</height>
+          </size>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QWidget" name="gridWidget" native="true">
+            <layout class="QGridLayout" name="button_slide_in">
+             <item row="0" column="0">
+              <widget class="QWidget" name="button_group" native="true">
+               <property name="minimumSize">
+                <size>
+                 <width>421</width>
+                 <height>81</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>421</width>
+                 <height>81</height>
+                </size>
+               </property>
+               <layout class="QGridLayout" name="gridLayout">
+                <property name="leftMargin">
+                 <number>1</number>
+                </property>
+                <item row="0" column="1">
+                 <widget class="QPushButton" name="sign_up">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>166</width>
+                    <height>49</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>166</width>
+                    <height>49</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton {
+	background-color:#3f3d56;
+	font: 9pt &quot;Eras Medium ITC&quot;;
+	color:white;
+	border-style: outset;
+	border-width: 2px;
+	border-radius: 20px;
+	border-color: beige;
+
+	}
+
+QPushButton:hover {
+	background-color:#e6e6e6;
+	color:#3f3d56;
+	border-color:#3f3d56;
+    border-style:solid;
+	font-weight:bold;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Sign up</string>
+                  </property>
+                  <property name="autoDefault">
+                   <bool>false</bool>
+                  </property>
+                  <property name="default">
+                   <bool>false</bool>
+                  </property>
+                  <property name="flat">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="2">
+                 <widget class="QPushButton" name="log_in">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>167</width>
+                    <height>49</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>167</width>
+                    <height>49</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton {
+	background-color:#564fcc;
+	font: 9pt &quot;Eras Medium ITC&quot;;
+	color:white;
+	border-style: outset;
+	border-width: 2px;
+	border-radius: 20px;
+	border-color: beige;
+
+	}
+
+QPushButton:hover {
+	background-color:rgb(230, 230, 230);
+	color:#6c63ff;
+	border-color:#6c63ff;
+    border-style:solid;
+	font-weight:bold;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Log in</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="qrc_main.qrc"/>
+ </resources>
+ <connections/>
+</ui>

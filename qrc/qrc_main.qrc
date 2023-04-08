@@ -1,0 +1,42 @@
+<RCC>
+  <qresource prefix="main">
+    <file>undraw_Happy_announcement_re_tsm0.png</file>
+    <file>undraw_web_shopping_re_owap.png</file>
+  </qresource>
+  <qresource prefix="transaction">
+    <file>undraw_Happy_announcement_re_tsm0.png</file>
+  </qresource>
+  <qresource prefix="product_manager">
+    <file>undraw_New_entries_re_cffr.png</file>
+  </qresource>
+  <qresource prefix="sign_in_seccess">
+    <file>undraw_Happy_announcement_re_tsm0.png</file>
+  </qresource>
+  <qresource prefix="database">
+    <file>undraw_Folder_files_re_2cbm.png</file>
+  </qresource>
+  <qresource prefix="cash">
+    <file>undraw_Wallet_re_cx9u.png</file>
+  </qresource>
+  <qresource prefix="credit">
+    <file>credit.png</file>
+  </qresource>
+  <qresource prefix="debit">
+    <file>debit.png</file>
+  </qresource>
+  <qresource prefix="signin">
+    <file>undraw_Sign_in_re_o58h.png</file>
+  </qresource>
+  <qresource prefix="success pay">
+    <file>undraw_Credit_card_re_blml.png</file>
+  </qresource>
+  <qresource prefix="login">
+    <file>undraw_Login_re_4vu2.png</file>
+  </qresource>
+  <qresource prefix="discount">
+    <file>undraw_discount_d4bd.png</file>
+  </qresource>
+  <qresource prefix="store">
+    <file>undraw_Shopping_re_hdd9.png</file>
+  </qresource>
+</RCC>
