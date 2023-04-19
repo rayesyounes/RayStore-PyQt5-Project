@@ -45,6 +45,11 @@ The application has a simple and user-friendly interface. Here's a quick overvie
 
 ## Screenshots
 
+![Store window](/Screenshots/Store_window.png)
+
+
+![Product window](/Screenshots/Product_window.png)
+
 ## Contributing
 
 Contributions are welcome! If you find a bug or have a feature request, please open an issue. If you want to contribute code, please fork the repository and create a pull request.
